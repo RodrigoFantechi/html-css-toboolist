@@ -102,18 +102,26 @@ h2 {
 .circle {
     color: var(--clr-green);
     display: inline-block;
-    width: 1.5rem;
-    height: 1.5rem;
-    border: 0.03rem solid var(--clr-green);
+    width: 1rem;
+    height: 1rem;
+    font-size: 0.5rem;
+    line-height: 1rem;
+    
     border-radius: 50%;
     text-align: center;
-    line-height: 1.5rem
+    
+}
+.green{
+    color: var(--clr-green);
+    border: 0.03rem solid var(--clr-green);
+}
+.red{
+    color: var(--clr-red);
+    border: 0.03rem solid var(--clr-red);
 }
 
 .btn,
 .form {
-
-
     color: var(--clr-white);
     padding: 0.375rem 0.75rem;
     font-weight: 700;
@@ -134,4 +142,22 @@ h2 {
 
 .blue {
     background-color: var(--clr-primary);
+}
+.purple {
+    background-color: var(--clr-purple);
+}
+.primary-green{
+    background-color: var(--clr-primary-green);
+}
+.orange{
+    background-color: var(--clr-orange);
+}
+.light-green{
+    background-color: var(--clr-light-green);
+}
+.pink{
+    background-color: var(--clr-pink);
+}
+.info_section{
+    margin: 1rem;
 }
