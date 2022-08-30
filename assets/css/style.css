@@ -17,26 +17,29 @@ Variables
     --clr-primary-green: #64c0a9;
     --clr-purple: #9c72e4;
     --clr-white: #ffffff;
-     --ff-primary: "Arial", sans-serif;
+    --ff-primary: "Arial", sans-serif;
     --spacing: 0.25rem;
     --radius: 0.5rem;
     --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
+
 /*
 =============== 
-General
+Global Styles
 ===============
 */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* border: 2px solid black; */
 }
-body{
-    background-color: var(--clr-white);
+
+body {
+    background-color: var(--clr-light-gray);
     font-family: var(--ff-primary);
 }
+
 
 
 /*
@@ -44,12 +47,91 @@ body{
 Header
 ===============
 */
-.title{
+header {
+    background-color: var(--clr-white);
+}
+
+.title {
     padding: 2rem;
     font-size: 2.5rem;
 }
-img{
+
+img {
     vertical-align: middle;
 }
 
+/*
+=============== 
+Main
+===============
+*/
 
+main {
+    margin: 5% auto;
+    width: 70%;
+    color: var(--clr-light-dark);
+}
+
+#form_section {
+    padding: 1rem;
+    background-color: var(--clr-white);
+    margin-bottom: 0.3rem;
+    border-top-left-radius: var(--radius);
+    border-top-right-radius: var(--radius);
+    padding-left: 3rem;
+}
+
+#main_section {
+    padding: 3rem 3rem 1rem 3rem;
+    
+    background-color: var(--clr-white);
+}
+
+h2 {
+    display: inline-block;
+}
+
+.title_section {
+    margin-bottom: 1rem;
+}
+
+.arrow {
+    font-size: 1.5rem;
+}
+
+.circle {
+    color: var(--clr-green);
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 0.03rem solid var(--clr-green);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.5rem
+}
+
+.btn,
+.form {
+
+
+    color: var(--clr-white);
+    padding: 0.375rem 0.75rem;
+    font-weight: 700;
+    font-size: 0.75rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+.form {
+    border-radius: var(--radius);
+    height: 2rem;
+}
+.text-cell{
+    border: 0.03rem solid var(--clr-gray);
+    width: 7rem;
+    text-align: center;
+}
+
+.blue {
+    background-color: var(--clr-primary);
+}
