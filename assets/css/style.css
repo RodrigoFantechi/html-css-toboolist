@@ -132,16 +132,19 @@ h2 {
     font-size: 0.75rem;
     border: none;
     border-radius: 1rem;
+
 }
 
 .form {
     border-radius: var(--radius);
     height: 2rem;
+    
 }
 .text-cell{
     border: 0.03rem solid var(--clr-gray);
     width: 7rem;
     text-align: center;
+    color: var(--clr-light-dark);
 }
 
 .blue {
