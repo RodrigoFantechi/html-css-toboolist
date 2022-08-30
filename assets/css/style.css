@@ -1,0 +1,55 @@
+/*
+=============== 
+Variables
+===============
+*/
+:root {
+    --clr-primary: #45abea;
+    --clr-dark: #000000;
+    --clr-light-gray: #f6f8f9;
+    --clr-gray: #c5cbd0;
+    --clr-light-dark: #444851;
+    --clr-green: #65c0a9;
+    --clr-red: #eb5851;
+    --clr-orange: #f29e33;
+    --clr-light-green: #b0c926;
+    --clr-pink: #d863a1;
+    --clr-primary-green: #64c0a9;
+    --clr-purple: #9c72e4;
+    --clr-white: #ffffff;
+     --ff-primary: "Arial", sans-serif;
+    --spacing: 0.25rem;
+    --radius: 0.5rem;
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+/*
+=============== 
+General
+===============
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+}
+body{
+    background-color: var(--clr-white);
+    font-family: var(--ff-primary);
+}
+
+
+/*
+=============== 
+Header
+===============
+*/
+.title{
+    padding: 2rem;
+    font-size: 2.5rem;
+}
+img{
+    vertical-align: middle;
+}
+
+
