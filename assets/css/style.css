@@ -40,6 +40,9 @@ body {
     font-family: var(--ff-primary);
 }
 
+h2 {
+    display: inline-block;
+}
 
 
 /*
@@ -70,7 +73,6 @@ main {
     margin: 3% auto;
     width: 70%;
     color: var(--clr-light-dark);
-    
 }
 
 #form_section {
@@ -91,10 +93,6 @@ main {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-h2 {
-    display: inline-block;
-}
-
 .title_section {
     margin-bottom: 1rem;
 }
@@ -103,6 +101,19 @@ h2 {
     font-size: 1.5rem;
 }
 
+.info_section {
+    margin-bottom: 1rem;
+}
+
+.sub_section {
+    margin-bottom: 2rem;
+}
+
+/*
+=============== 
+circle red/green
+===============
+*/
 .circle {
     color: var(--clr-green);
     display: inline-block;
@@ -110,20 +121,26 @@ h2 {
     height: 1rem;
     font-size: 0.5rem;
     line-height: 1rem;
-    
+
     border-radius: 50%;
     text-align: center;
-    
 }
-.green{
+
+.green {
     color: var(--clr-green);
     border: 0.03rem solid var(--clr-green);
 }
-.red{
+
+.red {
     color: var(--clr-red);
     border: 0.03rem solid var(--clr-red);
 }
 
+/*
+=============== 
+botton/form 
+===============
+*/
 .btn,
 .form {
     color: var(--clr-white);
@@ -138,36 +155,43 @@ h2 {
 .form {
     border-radius: var(--radius);
     height: 2rem;
-    
+
 }
-.text-cell{
+
+.text-cell {
     border: 0.03rem solid var(--clr-gray);
     width: 7rem;
     text-align: center;
     color: var(--clr-light-dark);
 }
 
+/*
+=============== 
+Background-color
+===============
+*/
+
+
 .blue {
     background-color: var(--clr-primary);
 }
+
 .purple {
     background-color: var(--clr-purple);
 }
-.primary-green{
+
+.primary-green {
     background-color: var(--clr-primary-green);
 }
-.orange{
+
+.orange {
     background-color: var(--clr-orange);
 }
-.light-green{
+
+.light-green {
     background-color: var(--clr-light-green);
 }
-.pink{
+
+.pink {
     background-color: var(--clr-pink);
-}
-.info_section{
-    margin-bottom: 1rem;
-}
-.sub_section{
-    margin-bottom: 2rem;
 }
